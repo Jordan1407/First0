@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="mainButton">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/color2</item>
+    </style>
+
+    <style name="buttonOutlinead" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="strokeColor">@color/color1</item>
+    </style>
+
+</resources>
